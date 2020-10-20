@@ -97,7 +97,7 @@ class Solution():
         ret = curr = ListNode(0)
         takeAway = 0
 
-        while l1 or l2 :
+        while l1 or l2 or takeAway:
             v1 = v2 = 0
             if l1:
                 v1=l1.val

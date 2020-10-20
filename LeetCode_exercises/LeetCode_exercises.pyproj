@@ -26,6 +26,9 @@
     <Compile Include="ex2_addTwoNumbers.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex3_longestSubString_wo_repeating.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LeetCode_exercises.py" />
     <Compile Include="ex1_twoSum.py">
       <SubType>Code</SubType>
