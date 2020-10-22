@@ -1,10 +1,12 @@
-import ex3_longestSubString_wo_repeating as ex3
 
 
-ex3Sn=ex3.Solution()
-ex3Sn.lengthOfLongestSubstring('dvdf')
+import ex8_stringToInteger as ex8
 
-import ex7_reverseInteger as ex7
+ex8sln = ex8.Solution()
+in_strings=["42", "  -42", "4193 with words", "words and 987", "-91283472332", "3.1459", "+-12",  ".1", "00000-42a1234", " 004.345 " ,""]
 
-ex7Sln = ex7.Solution()
-print(ex7Sln.reverse_fn2(123456))
+for myString in in_strings:
+    print("input: {} , output : {} ".format(myString, ex8sln.myAtoi(myString))    )
+
+
+
