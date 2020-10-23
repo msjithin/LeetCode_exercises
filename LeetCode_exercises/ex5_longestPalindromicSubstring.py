@@ -22,22 +22,23 @@ Constraints:
 1) 1 <= s.length <= 1000
 2) s consist of only digits and English letters (lower-case and/or upper-case),
 """
-#class Solution:
-#    def longestPalindrome(self, s: str) -> str:
-#        return ''
-#s = 'babad'
-
-#def checkIfPalindrome(stringtocheck):
-#   if stringtocheck == stringtocheck[ ::-1 ]:
-#       return True
-#   return False
-            
-    
-#def cheackForPalindrome(s):
-#    currentString=s
-#    lengthOfString = len(currentString)
-#    palindrome = ''
-#    for i, letter in enumerate(currentString):
-#        palindrome=letter
-#        if checkIfPalindrome(palindrome):
-#            palindrome = currentString[i-1] + letter + currentString[i+1]
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        max_length = 1
+        start = 0
+        for i in range(1,len(s)):
+            # consider adding 2
+            if i-max_length-1 >= 0:
+                if s[i-max_length-1:i+1] == s[i-max_length-1:i+1][::-1]:
+                    start = i-max_length-1
+                    max_length += 2
+                    
+            if i-max_length >= 0:
+                if s[i-max_length:i+1] == s[i-max_length:i+1][::-1]:
+                    print(s[i-max_length:i+1],s[i-max_length:i+1][::-1])
+                    print(s[i-max_length:i+1]==s[i-max_length:i+1][::-1])
+                    start = i-max_length
+                    max_length += 1
+                    #print("start",start)
+        
+        return s[start:start+max_length]
