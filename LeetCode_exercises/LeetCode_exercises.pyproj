@@ -29,10 +29,16 @@
     <Compile Include="ex3_longestSubString_wo_repeating.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex4_medianOfTwoSortedArrays.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex5_longestPalindromicSubstring.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex7_reverseInteger.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex9_palindromeNumber.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LeetCode_exercises.py" />
