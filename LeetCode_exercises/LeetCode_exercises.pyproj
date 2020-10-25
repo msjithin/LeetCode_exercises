@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ex11_containerWithMostWater.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex2_addTwoNumbers.py">
       <SubType>Code</SubType>
     </Compile>
