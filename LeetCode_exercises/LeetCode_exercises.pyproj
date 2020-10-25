@@ -35,6 +35,9 @@
     <Compile Include="ex5_longestPalindromicSubstring.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex6_zigZag_conversion.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex7_reverseInteger.py">
       <SubType>Code</SubType>
     </Compile>
