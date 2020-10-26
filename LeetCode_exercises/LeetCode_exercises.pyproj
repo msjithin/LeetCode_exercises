@@ -23,44 +23,44 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ex10_regularExpressionMatching.py">
+    <Compile Include="ex0010_regularExpressionMatching.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex11_containerWithMostWater.py">
+    <Compile Include="ex0011_containerWithMostWater.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex12_integerToRoman.py">
+    <Compile Include="ex0012_integerToRoman.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex13_romanToInteger.py">
+    <Compile Include="ex0013_romanToInteger.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex2_addTwoNumbers.py">
+    <Compile Include="ex0002_addTwoNumbers.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex3_longestSubString_wo_repeating.py">
+    <Compile Include="ex0003_longestSubString_wo_repeating.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex4_medianOfTwoSortedArrays.py">
+    <Compile Include="ex0004_medianOfTwoSortedArrays.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex5_longestPalindromicSubstring.py">
+    <Compile Include="ex0005_longestPalindromicSubstring.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex6_zigZag_conversion.py">
+    <Compile Include="ex0006_zigZag_conversion.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex7_reverseInteger.py">
+    <Compile Include="ex0007_reverseInteger.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex9_palindromeNumber.py">
+    <Compile Include="ex0009_palindromeNumber.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LeetCode_exercises.py" />
-    <Compile Include="ex1_twoSum.py">
+    <Compile Include="ex0001_twoSum.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ex8_stringToInteger.py">
+    <Compile Include="ex0008_stringToInteger.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
