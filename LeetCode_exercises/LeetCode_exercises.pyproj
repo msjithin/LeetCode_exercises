@@ -23,7 +23,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ex10_regularExpressionMatching.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex11_containerWithMostWater.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex12_integerToRoman.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex13_romanToInteger.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex2_addTwoNumbers.py">
