@@ -1,6 +1,6 @@
-import ex0012_integerToRoman as ex12
 
 
-mysln = ex12.Solution()
-for num in [3, 4, 5, 58, 1994, 2513]:
-    print(str(num), mysln.intToRoman(num))
+
+strs1 = ["flower","flow","flight"]
+strs2 = ["dog","racecar","car"]
+
