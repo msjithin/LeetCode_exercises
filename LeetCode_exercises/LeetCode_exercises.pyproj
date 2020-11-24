@@ -59,6 +59,21 @@
     <Compile Include="ex0014_longestCommonPrefix.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0015_3Sum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0016_3sumClosest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0020_validParanthesis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0026_removeDuplicatesfromSortedArray.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LeetCode_exercises.py" />
     <Compile Include="ex0001_twoSum.py">
       <SubType>Code</SubType>
