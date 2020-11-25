@@ -65,6 +65,9 @@
     <Compile Include="ex0016_3sumClosest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0017_letterCombination.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0020_validParanthesis.py">
       <SubType>Code</SubType>
     </Compile>
