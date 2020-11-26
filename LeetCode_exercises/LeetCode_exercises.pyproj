@@ -74,6 +74,12 @@
     <Compile Include="ex0026_removeDuplicatesfromSortedArray.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0028_implementstrStr.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0029_divideTwoIntegers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fibonacci.py">
       <SubType>Code</SubType>
     </Compile>

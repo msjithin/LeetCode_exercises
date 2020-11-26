@@ -9,6 +9,8 @@
     Note that the input array is passed in by reference, 
     which means a modification to the input array will be known to the caller as well.
 """
+from typing import List
+
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         i=0
