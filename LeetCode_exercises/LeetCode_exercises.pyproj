@@ -80,6 +80,12 @@
     <Compile Include="ex0029_divideTwoIntegers.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0038_countAndSay.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0050_pow.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fibonacci.py">
       <SubType>Code</SubType>
     </Compile>

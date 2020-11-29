@@ -74,3 +74,45 @@ class Solution:
             quotient += current_quotient
 
         return min(2147483647, max(-quotient if is_negative else quotient, -2147483648))
+
+class Solution_2:
+	def divide( self, x: int, y: int) -> int:    
+		sign = 1 if x*y>0 else -1
+		x , y = abs(x) , abs(y)
+		if (x==-2147483648) and (y==-1): 
+			return 1
+		v= y
+		if x > v:
+			 quotient = 1
+		elif x == v :
+			return 1*sign
+		else:
+			return 0
+		quotient=1
+		moves = []
+		quotients = []
+		while v <= x:
+			 moves.append(v)
+			 quotients.append(quotient)
+			 v+=v
+			 quotient+=quotient
+		print(len(moves), ' moves',moves)
+		print(len(quotients),' quotinets',quotients )
+
+		x-=moves[-1]
+		result = quotients[-1]
+		print('x to check', x, ' result now=',result)
+		i=0
+		while x >= y:
+			if x - moves[i] >= 0:
+				result += quotients[i]
+				x -= moves[i]
+			print( 'x =',x,'result=', result , ' i ', i , ' y', y)
+			i+=1
+			if i==len(moves):
+				i=0
+
+		if sign >0 :
+			return min(2**31 -1 , result)
+		else :
+			return max( -2**31 , -result)
