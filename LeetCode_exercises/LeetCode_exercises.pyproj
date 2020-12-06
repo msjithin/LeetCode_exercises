@@ -80,10 +80,55 @@
     <Compile Include="ex0029_divideTwoIntegers.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0031_nextPermutation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0032_longestValidParanthesis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0034_firstAndLastPositionOfElement.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0035_searchPosition.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0038_countAndSay.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0043_multiplyStrings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0048_rotateImage.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0049_groupAnagrams.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0050_pow.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0058_lengthOfLastWord.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0061_rotateList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0066_plusOne,py.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0067_addBinary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0082_removeDuplicatesFromSortedList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0278_firstBadVersion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0415_add Strings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0989_add_to_array_form_of_integer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="fibonacci.py">
@@ -94,6 +139,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0008_stringToInteger.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linkedList.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
