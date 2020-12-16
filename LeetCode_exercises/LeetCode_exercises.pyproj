@@ -107,6 +107,9 @@
     <Compile Include="ex0050_pow.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0055_jumpGame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0058_lengthOfLastWord.py">
       <SubType>Code</SubType>
     </Compile>
@@ -122,7 +125,34 @@
     <Compile Include="ex0082_removeDuplicatesFromSortedList.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0118_pascalsTriangle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0119_pascalsTriangleII.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0120_triangle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0121_bestTimeToBuyAndSell.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0123_buyAndSellStocks.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0125_validPalindrome.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0136_singleNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0205_isomorphicStrings.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0278_firstBadVersion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0290_wordPattern.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0415_add Strings.py">

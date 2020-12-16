@@ -1,18 +1,11 @@
 
+import ex0123_buyAndSellStocks as ex123
 
-import ex0032_longestValidParanthesis as ex32
 
-s = {   
-    "(()" : 2 ,
-    ")()())" : 4,
-    "" : 0,
-    "()(()" :  4,
-    "())"   : 2,   
-    ")("    : 0,
-    "()()"  : 4,
-    "()(())"  :  6
-    }
 
-for b in s :
-    print('input string = {} ,\t expected={} ,\t output={}  '.format(b, s.get(b), ex32.Solution().longestValidParentheses(b) ))
-    #print('testing solution : {} \n\n'.format(ex32.Solution2().longestValidParentheses(b)))
+prices = [3,3,5,0,0,3,1,4]
+#prices = [1,2,3,4,5]
+#prices = [7,6,4,3,1]
+
+
+print( ex123.Solution().maxProfit(prices)    )
