@@ -12,7 +12,7 @@
     <Name>LeetCode_exercises</Name>
     <RootNamespace>LeetCode_exercises</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -95,6 +95,9 @@
     <Compile Include="ex0038_countAndSay.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0041_firstMissingPositiveInteger.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0043_multiplyStrings.py">
       <SubType>Code</SubType>
     </Compile>
@@ -107,13 +110,25 @@
     <Compile Include="ex0050_pow.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0054_spiralMatrix.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0055_jumpGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0056_mergeIntervals.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0058_lengthOfLastWord.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0059_spiralMatrix2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0061_rotateList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0065_validNumber.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0066_plusOne,py.py">
@@ -152,6 +167,9 @@
     <Compile Include="ex0278_firstBadVersion.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0287_findDuplicateNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0290_wordPattern.py">
       <SubType>Code</SubType>
     </Compile>
@@ -159,6 +177,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0989_add_to_array_form_of_integer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex1015_smallest_integer_divisible_byK.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="fibonacci.py">
@@ -177,6 +198,17 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (32-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
