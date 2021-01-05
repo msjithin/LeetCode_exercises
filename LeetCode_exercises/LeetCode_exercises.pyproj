@@ -119,6 +119,9 @@
     <Compile Include="ex0056_mergeIntervals.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ex0057_insert_interval.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ex0058_lengthOfLastWord.py">
       <SubType>Code</SubType>
     </Compile>
@@ -135,6 +138,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0067_addBinary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ex0073_setMatrixZeros.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ex0082_removeDuplicatesFromSortedList.py">
